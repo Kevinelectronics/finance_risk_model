@@ -7,7 +7,7 @@ Practical Python examples for **quantitative risk analysis** of stocks using the
 - **Risk decomposition** — break down stock risk into market, sector, subsector, and residual components
 - **Metrics snapshots** — hedge ratios, explained risk, and rolling volatility for any ticker
 - **LLM-ready context** — format risk data as structured text for use with Claude, GPT, or any AI model
-- **Batch analysis** — analyze multiple positions at once (upcoming examples)
+- **Portfolio analysis** — aggregate ERM3 exposures across multiple positions and rank by alpha vs beta character
 - **Macro factor correlation** — map stocks to macro drivers (upcoming examples)
 
 ## Examples
@@ -16,8 +16,9 @@ Practical Python examples for **quantitative risk analysis** of stocks using the
 |------|-------------|
 | [`examples/01_risk_decomposition_nvda.py`](examples/01_risk_decomposition_nvda.py) | Four-layer risk decomposition + metrics snapshot for NVDA, formatted for LLM context |
 | [`examples/02_claude_risk_analyst.py`](examples/02_claude_risk_analyst.py) | Claude acts as a quant analyst: interprets ERM3 decomposition and gives actionable portfolio insights |
+| [`examples/03_portfolio_risk_analysis.py`](examples/03_portfolio_risk_analysis.py) | Multi-stock portfolio decomposition: Claude identifies alpha vs beta character and which positions drive systematic risk |
 
-More examples coming soon: portfolio-level risk, batch screeners, time-series hedge ratios, and AI agent integrations.
+More examples coming soon: batch screeners, time-series hedge ratios, automated daily reports, and 13F fund analysis.
 
 ## Setup
 
