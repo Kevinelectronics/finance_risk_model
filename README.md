@@ -15,6 +15,7 @@ Practical Python examples for **quantitative risk analysis** of stocks using the
 | File | Description |
 |------|-------------|
 | [`examples/01_risk_decomposition_nvda.py`](examples/01_risk_decomposition_nvda.py) | Four-layer risk decomposition + metrics snapshot for NVDA, formatted for LLM context |
+| [`examples/02_claude_risk_analyst.py`](examples/02_claude_risk_analyst.py) | Claude acts as a quant analyst: interprets ERM3 decomposition and gives actionable portfolio insights |
 
 More examples coming soon: portfolio-level risk, batch screeners, time-series hedge ratios, and AI agent integrations.
 
